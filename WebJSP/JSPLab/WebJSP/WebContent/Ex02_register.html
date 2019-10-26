@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원가입 페이지</title>
+</head>
+<body>
+<!--
+1. name 속성 : 변수명(Ex02_resister.jsp?userid=hong&pwd=1111
+2. id 속성 : (UI코드에서 CSS적용, javascript, jquery의 식별자)
+3. Ex02_resister.jsp 페이지... 제일먼저 무엇을?
+ -->
+	<form action="Ex02_resister.jsp" method="post">
+		<input type="text" name="userid" id="userid">
+		<input type="text" name="pwd" id="pwd">
+		<input type="checkbox" name="hobby" value="baseball">baseball
+		<input type="checkbox" name="hobby" value="soccer">soccer
+		<input type="checkbox" name="hobby" value="basketball">basketball
+		<input type="submit" value="회원가입">
+		<!--선장 3총사 submit / img / document.submit -->
+	</form>
+</body>
+</html>
